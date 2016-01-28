@@ -1,2 +1,2 @@
-cd C:\inetpub\wwwroot\AppTest\
+cd C:\inetpub\wwwroot\FirstApp\
 del index.html
