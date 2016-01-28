@@ -1,21 +1,11 @@
 version: 0.0
-
 os: windows
-
 files:
-
   - source: \index.html
-    
-destination: C:\inetpub\wwwroot\FirstApp
-
-
-
+    destination: C:\inetpub\wwwroot\FirstApp
 
 
 hooks:
-  
- 	Install:
-    
-- location: \before-install.bat
-      
-timeout: 900
+  Install:
+    - location: \before-install.bat
+      timeout: 900
